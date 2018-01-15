@@ -1,0 +1,64 @@
+*{
+	text-align:center;
+}
+body{
+  background-image:url('img.jpg');
+  background-repeat:no-repeat;
+ }
+
+h1{
+	font-family: 'Joti One', cursive;
+	font-size: 50px;
+}
+
+nav>ul li{
+	display: inline;
+	padding: 40px;
+	font-size: 20px;
+	text-decoration: none;
+}
+hr{
+	background-color: solid black;
+}
+
+li a{
+	text-decoration: none;
+}
+ul>li>a:hover{
+	background-color: white;
+	padding: 10px;
+}
+
+li a:link{
+	color: black;
+}
+
+
+input{
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 20px;
+}
+input:hover{
+	background-color: cyan;
+}
+
+input[type=button]:hover{
+	background-color: orange;
+}
+
+button{
+	padding: 10px 20px;
+	border-radius: 30px;
+}
+
+button:hover{
+	padding: 12px 22px;
+	color:red;
+	font-size: 20	px;
+	background-color: white;
+}
+
+.hob{
+	font-size: 40px;
+}
