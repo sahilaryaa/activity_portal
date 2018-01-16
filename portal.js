@@ -15,14 +15,15 @@ function validate()
 {
   var name=document.getElementById("ename").value;
   var password=document.getElementById("pwd").value;
+  var pattern="[a-z0-9,%_+-]+@.com";
   
 
-  if(name=='Sahil' && password=='arya')
+  if(name=='Sahil@gmail.com' && password=='arya')
   { alert("Hi " + name +"Welcome!!");
     window.location="menu.html";}
-    else
-      {alert("Enter valid credentials.");
-    window.location="portal.html";}
+    else if(name!=pattern)
+      {alert("Enter in something@com format");
+        window.location="portal.html";}
 
 }
 function passwordvalid()
@@ -41,8 +42,3 @@ function passwordvalid()
     window.location="portalabout.html";
   }
 }
-// function signup()
-// {
-//   alert("Succesfully signed up");
-//     window.location="portal.html";
-// }

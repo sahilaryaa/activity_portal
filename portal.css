@@ -10,13 +10,17 @@ body{
 h1{
 	font-family: 'Joti One', cursive;
 	font-size: 50px;
+
 }
 
 nav>ul li{
 	display: inline;
-	padding: 40px;
-	font-size: 20px;
+	padding: 50px;
+	font-weight: bold;
+	font-size: 30px;
 	text-decoration: none;
+	font-family: 'Joti One', cursive;
+	
 }
 
 li a{
@@ -36,31 +40,50 @@ input{
 	padding: 20px;
 	font-size: 20px;
 	border-radius: 20px;
+	
 }
 input:hover{
 	background-color: cyan;
 }
 
 input[type=button]:hover{
-	background-color: orange;
+	background-color:yellow;
 }
 
 button{
 	padding: 10px 20px;
 	border-radius: 30px;
+
 }
 
 button:hover{
 	padding: 12px 22px;
 	color:red;
-	font-size: 20	px;
+	font-size: 20px;
 	background-color: white;
 }
 
 .hob{
 	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Joti One', cursive;
 }
 
 h1>p>a:hover{
 	color: white;
+}
+
+h1>p>a{
+	font-family: 'Joti One', cursive;
+	font-size: 60px;
+	color: black;
+}
+.vid{
+	font-family: 'Joti One', cursive;
+}
+.para{
+	font-size: 40px;
+	
+	font-weight: bold;
+	font-family: 'Joti One', cursive;
 }

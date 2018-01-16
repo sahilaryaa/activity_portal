@@ -1,6 +1,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="portal.css">
+  <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
 	<script type="text/javascript" src="portal.js"></script>
 </head>
 <script>
@@ -16,7 +17,7 @@ function getMap() {
     var latitude  = position.coords.latitude;
     var longitude = position.coords.longitude;
 
-    output.innerHTML = '<p style="font-size:50px;color:white;">Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
+    output.innerHTML = '<p class="para">Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
 
     var img = new Image();
     img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude + "&zoom=13&size=700x500&sensor=false";
