@@ -2,8 +2,9 @@
 	text-align:center;
 }
 body{
-  background-image:url('img.jpg');
+  background-image:url('img1.jpg');
   background-repeat:no-repeat;
+  background-size: cover;
  }
 
 h1{
@@ -16,9 +17,6 @@ nav>ul li{
 	padding: 40px;
 	font-size: 20px;
 	text-decoration: none;
-}
-hr{
-	background-color: solid black;
 }
 
 li a{
@@ -61,4 +59,8 @@ button:hover{
 
 .hob{
 	font-size: 40px;
+}
+
+h1>p>a:hover{
+	color: white;
 }
